@@ -1,0 +1,22 @@
+@import "./vendor/normalize.scss";
+
+h1 {
+    color: red; 
+}
+
+// Medium screens and up
+@media (min-width: 768px) {
+    .container {
+      background-color: yellow;
+    }
+  }
+  // Big screens
+  @media (min-width: 1024px) {
+    .container {
+      background-color: navy;
+    }
+  }
+  
+  .primary-btn{
+    @include blue-btn;
+  }

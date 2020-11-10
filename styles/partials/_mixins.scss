@@ -1,0 +1,19 @@
+@mixin border-radius() {
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    border-radius: 7px;
+  }
+  aside { 
+    border: 1px solid orange;
+    @include border-radius(); 
+    }
+  
+    aside {
+        border: 1px solid orange;
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        border-radius: 7px; }
+      
+      
